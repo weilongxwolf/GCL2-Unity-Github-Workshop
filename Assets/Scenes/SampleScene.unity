@@ -550,7 +550,7 @@ GameObject:
   - component: {fileID: 830498070}
   - component: {fileID: 830498072}
   m_Layer: 0
-  m_Name: spritesheet-tiles-default_66
+  m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
