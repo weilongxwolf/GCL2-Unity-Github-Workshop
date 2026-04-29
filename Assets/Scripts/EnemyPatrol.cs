@@ -20,11 +20,11 @@ public class EnemyPatrol : MonoBehaviour
         Vector2 point = currentPos.position - transform.position;
         if (currentPos == posR.transform)
         {
-            rb.velocity = new Vector2(speed, 0);
+            rb.linearVelocity = new Vector2(speed, 0);
         }
         else
         {
-            rb.velocity = new Vector2(-speed, 0);
+            rb.linearVelocity = new Vector2(-speed, 0);
         }
 
         if (Vector2.Distance(transform.position, currentPos.position) < 0.5f && currentPos == posR.transform)
