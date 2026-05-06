@@ -805,7 +805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingScore: 0
-  lives: 5
+  lives: 18
   gameSpeed: 1
 --- !u!4 &858052917
 Transform:
