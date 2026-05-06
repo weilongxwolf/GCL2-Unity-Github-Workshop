@@ -4,12 +4,12 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Movement")]
     public float moveSpeed = 5.0f;   // <-- Activity 2 prefab conflict target (serialised in prefab)
-    public float jumpForce = 8.0f;
+    public float jumpForce = 9.0f;
 
     private Rigidbody2D rb;
 
     private void Start()
-    {
+    {   
         rb = GetComponent<Rigidbody2D>();
 
     }
