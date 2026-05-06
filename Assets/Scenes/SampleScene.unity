@@ -805,7 +805,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingScore: 0
-<<<<<<< HEAD
   lives: 4
   gameSpeed: 1
 --- !u!4 &858052917
